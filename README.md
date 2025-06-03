@@ -30,40 +30,54 @@ Install the `requests` library if you haven't:
 ```bash
 pip install requests
 
-## 🚀 How to Run
+🚀 How to Run
+Clone this repository:
 
-1. **Clone this repository:**
+bash
+Copy
+Edit
+git clone https://github.com/your-username/weather_app.git
+cd weather_app
+Install dependencies:
 
-   ```bash
-   git clone https://github.com/your-username/weather_app.git
-   cd weather_app
+bash
+Copy
+Edit
+pip install requests
+Get your OpenWeatherMap API key:
 
-## Install required dependencies:
+Sign up at OpenWeatherMap
 
-**Make sure Python 3.x is installed. Then install the requests library:
+Go to your API Keys page and copy your API key.
 
-**pip install requests
-
-##Get your OpenWeatherMap API key:
-
-## Sign up at[ OpenWeatherMap](https://home.openweathermap.org/users/sign_up)
-
-## Go to your [API Keys page](https://home.openweathermap.org/api_keys) and copy your API key.
-
-**Create a key.txt file:
+Create a key.txt file:
 
 In the project directory, create a new file called key.txt and paste your API key inside it.
 
-## Run the application:
+Run the application:
 
-**python weather.py
+bash
+Copy
+Edit
+python weather.py
+Use the App:
 
-## Use the App:
+Enter the city name when prompted.
 
-**Enter the city name when prompted.
+Get current temperature, weather description, humidity, and wind speed.
 
-**Get current temperature, weather description, humidity, and wind speed.
+Type exit to close the application.
 
-**Type exit to close the application.
+📸 Demo
+bash
+Copy
+Edit
+Enter city name (or 'exit' to quit): Delhi
+
+🌦️  Weather in Delhi, IN:
+Temperature: 35°C
+Description: Scattered Clouds
+Humidity: 34%
+Wind Speed: 1.99 m/s
 
 
