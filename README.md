@@ -15,69 +15,38 @@ A simple and user-friendly command-line weather application built with Python. T
 
 ---
 
-## 📂 Project Structure
-
-
----
 
 ## 🔧 Requirements
 
 - Python 3.x
 - `requests` library
 
-Install the `requests` library if you haven't:
+- ### Install the `requests` library if you haven't: `pip install requests`
 
-```bash
-pip install requests
+---
 
-🚀 How to Run
-Clone this repository:
+## 🚀 How to Run
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/weather_app.git
-cd weather_app
-Install dependencies:
+- Clone this repository: `git clone https://github.com/your-username/weather_app.git`
 
-bash
-Copy
-Edit
-pip install requests
-Get your OpenWeatherMap API key:
+- ### Get your OpenWeatherMap API key:
 
-Sign up at OpenWeatherMap
+- Sign up at [OpenWeatherMap](https://home.openweathermap.org/users/sign_up)
 
-Go to your API Keys page and copy your API key.
+- Go to your [API Keys page](https://home.openweathermap.org/api_keys) and copy your API key.
 
-Create a key.txt file:
+- In the project directory, create a new file named key.txt and paste your API key inside it. Save the file.
 
-In the project directory, create a new file called key.txt and paste your API key inside it.
+- Run the application: `python weather.py`
 
-Run the application:
+- Enter the city name when prompted.
 
-bash
-Copy
-Edit
-python weather.py
-Use the App:
+- Get current temperature, weather description, humidity, and wind speed.
 
-Enter the city name when prompted.
+- Type `exit` to close the application.
 
-Get current temperature, weather description, humidity, and wind speed.
+## 📸 Demo
 
-Type exit to close the application.
 
-📸 Demo
-bash
-Copy
-Edit
-Enter city name (or 'exit' to quit): Delhi
-
-🌦️  Weather in Delhi, IN:
-Temperature: 35°C
-Description: Scattered Clouds
-Humidity: 34%
-Wind Speed: 1.99 m/s
-
+![Screenshot 2025-06-03 111856](https://github.com/user-attachments/assets/9acefb3e-7e18-4d63-8fe9-798340e0bb47)
 
